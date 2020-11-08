@@ -1,0 +1,88 @@
+body{
+  background-color: hsl(229, 57%, 11%);
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+p{
+  padding:30px;
+  padding-right: 250px;
+  color: white;
+  font-size: 14px;
+}
+
+
+.balance{
+  color: hsl(243, 100%, 93%);
+  height: 100px;
+  width:100px;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.background-img{
+  background-size: contain;
+  position: relative;
+  height: 100%;
+  width:100%;
+  text-align: center;
+  top:80px;
+}
+.doc{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  background-size: 15px;
+  border:10px;
+
+  position: absolute;
+  left: 29px;
+  top:90px;
+
+}
+.folder{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  background-size: 15px;
+  position: absolute;
+  left :90px;
+  top:90px;
+
+}
+.upload{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  background-size: 15px;
+  position: absolute;
+  left:150px;
+  top:90px;
+}
+.flyo{
+  background-color: hsl(228, 56%, 26%);;
+  width:300px;
+  height: 160px;
+  position: relative;
+  top:252px;
+  left:325px;
+  border-radius: 10px 90px 10px 10px;
+}
+.logo{
+  position: absolute;
+  left:25px;
+  top:30px;
+}
+.rectangle{
+  background-color:  hsl(228, 56%, 26%);
+  width:525px;
+  height:140px;
+  position:relative;
+  top:100px;
+  left:650px;
+  border-radius: 10px;
+}
+#slider{
+width: 10px;
+}
