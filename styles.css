@@ -1,88 +1,166 @@
-body{
+body {
   background-color: hsl(229, 57%, 11%);
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-p{
-  padding:30px;
-  padding-right: 250px;
+
+p {
+  /* padding:30px; */
+  padding-right: 2px;
   color: white;
   font-size: 14px;
 }
 
-
-.balance{
-  color: hsl(243, 100%, 93%);
-  height: 100px;
-  width:100px;
-  border-radius: 5px;
+.attribution {
   position: relative;
-
+  bottom: 10px;
 }
 
-.background-img{
+.balance {
+  color: hsl(243, 100%, 93%);
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.background-img {
   background-size: contain;
   position: relative;
   height: 100%;
-  width:100%;
+  width: 100%;
   text-align: center;
-  top:80px;
+  top: 80px;
 }
-.doc{
-  padding: 5px;
-  border-radius: 5px;
-  background-color: red;
-  background-size: 15px;
-  border:10px;
 
+.call {
+  position: absolute;
+  width: 165px;
+  left: 280px;
+  bottom: 118px;
+  border-radius: 10px 10px 0;
+  height: 70px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.call>p {
+  color: black;
+}
+
+.call-out {
+  border-bottom: 40px solid transparent;
+  border-right: 30px solid white;
+  content: " ";
+  margin-left: 135px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+.doc {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: hsl(229, 57%, 11%);
+  background-size: 15px;
+  border: 10px;
   position: absolute;
   left: 29px;
-  top:90px;
-
+  top: 90px;
 }
-.folder{
-  padding: 5px;
+
+.folder {
+  padding: 10px;
   border-radius: 5px;
-  background-color: red;
+  background-color: hsl(229, 57%, 11%);
   background-size: 15px;
   position: absolute;
-  left :90px;
-  top:90px;
-
+  left: 90px;
+  top: 90px;
 }
-.upload{
-  padding: 5px;
+
+.upload {
+  padding: 12px;
   border-radius: 5px;
-  background-color: red;
+  background-color: hsl(229, 57%, 11%);
   background-size: 15px;
   position: absolute;
-  left:150px;
-  top:90px;
+  left: 150px;
+  top: 90px;
 }
-.flyo{
-  background-color: hsl(228, 56%, 26%);;
-  width:300px;
+
+.flyo {
+  background-color: hsl(228, 56%, 26%);
+  ;
+  width: 300px;
   height: 160px;
   position: relative;
-  top:252px;
-  left:325px;
+  top: 240px;
+  left: 325px;
   border-radius: 10px 90px 10px 10px;
 }
-.logo{
+
+.logo {
   position: absolute;
-  left:25px;
-  top:30px;
+  left: 25px;
+  top: 30px;
 }
-.rectangle{
-  background-color:  hsl(228, 56%, 26%);
-  width:525px;
-  height:140px;
-  position:relative;
-  top:100px;
-  left:650px;
+
+.rectangle {
+  background-color: hsl(228, 56%, 26%);
+  width: 525px;
+  height: 140px;
+  position: relative;
+  top: 100px;
+  left: 650px;
   border-radius: 10px;
 }
-#slider{
-width: 10px;
+
+.range {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  /* left:35px; */
+}
+
+/* .range>p{
+  padding-right:10px;
+} */
+.slider {
+  background-color: hsl(218, 50%, 26%);
+  ;
+  height: 12%;
+  width: 90%;
+  position: absolute;
+  justify-content: center;
+  left: 5%;
+  top: 60px;
+  border-radius: 10px;
+}
+
+.slider-progress {
+  position: absolute;
+  width: 85%;
+  height: 95%;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 10px;
+}
+
+.slider-ball {
+  background-color: white;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 96%;
+}
+
+#usage {
+  padding-top: 25px;
+  left: 5%;
+  position: absolute;
 }
