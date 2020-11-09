@@ -15,10 +15,11 @@ p {
 .attribution {
   position: relative;
   bottom: 10px;
+  text-decoration:none;
 }
 
 .balance {
-  color: hsl(243, 100%, 93%);
+  color:  hsl(229, 57%, 11%);
   height: 100px;
   width: 100px;
   border-radius: 5px;
